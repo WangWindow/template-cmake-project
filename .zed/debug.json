@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Debug C++ (CodeLLDB)",
+    "adapter": "CodeLLDB",
+    "request": "launch",
+    "program": "$ZED_WORKTREE_ROOT/build/app",
+    "args": [],
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "build": "CMake: Configure & Build (Debug)",
+    "stopOnEntry": false
+  },
+  {
+    "label": "Debug C++ (GDB)",
+    "adapter": "GDB",
+    "request": "launch",
+    "program": "$ZED_WORKTREE_ROOT/build/app",
+    "args": [],
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "build": "CMake: Configure & Build (Debug)",
+    "stopAtBeginningOfMainSubprogram": false
+  }
+]
